@@ -50,7 +50,7 @@ $emerr="DataBase Updated";
 </div>
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
   <div class="form-group">
-  <input class="form-control" type="text" placeholder="USN" name="usn" value="<?php echo $usn; ?>"/>
+  <input class="form-control" type="text" placeholder="USN" name="usn" pattern="[1-4]{1}[A-Za-z]{2}[0-9]{2}[A-Za-z]{2}[0-9]{3}" value="<?php echo $usn; ?>"/>
   <label style="color:red;"><?php echo $uerr; ?> </label>
 </div>
 <div class="form-group">
