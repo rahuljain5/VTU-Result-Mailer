@@ -62,5 +62,14 @@ $emerr="DataBase Updated";
 </div><!--Register -->
 </form>
 </div>
+<div class="container">
+    <hr />
+		<p class="help-block text-center"><b>By:</b>Shubhan</p>
+        <div class="text-center center-block">
+                <a href="http://github.com/shubham399"><i class="fa fa-github fa-3x social"></i></a>
+				
+</div>
+    <hr />
+</div>
 </body>
 </html>
